@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2482bbc8-fb60-4709-9e66-3b1595e3cdf2" name="Default Changelist" comment="" />
+    <list default="true" id="2482bbc8-fb60-4709-9e66-3b1595e3cdf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EhcoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/demo/echo/EchoServerHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +48,50 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.42413792" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.EchoServer">
+    <configuration name="EchoClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.echo.EchoClient" />
+      <module name="nettyLearn" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 9999" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.echo.EchoServer" />
+      <module name="nettyLearn" />
+      <option name="PROGRAM_PARAMETERS" value="9999" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.demo.echo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.echo.EchoServer" />
+      <option name="PROGRAM_PARAMETERS" value="9999" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.EchoServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,6 +106,14 @@
       <workItem from="1657609501806" duration="3105000" />
       <workItem from="1657703039576" duration="3099000" />
       <workItem from="1657880860294" duration="97000" />
+      <workItem from="1658107122652" duration="10022000" />
+      <workItem from="1658218190617" duration="603000" />
+      <workItem from="1658393587896" duration="694000" />
+      <workItem from="1658476881202" duration="770000" />
+      <workItem from="1658742517960" duration="615000" />
+      <workItem from="1658823390924" duration="2114000" />
+      <workItem from="1659086971483" duration="34000" />
+      <workItem from="1659087025466" duration="268000" />
     </task>
     <servers />
   </component>
@@ -64,17 +121,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="125" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1657704246527">
+    <state x="157" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659087367583">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="125" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1657704246527" />
+    <state x="157" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1659087367583" />
+    <state x="516" y="48" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1658113728369">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="516" y="48" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680@0.0.1280.680" timestamp="1658113728369" />
+    <state x="472" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1658108827410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="472" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1658108827410" />
+    <state x="466" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1658113852777">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="466" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1658113852777" />
     <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1657612586253">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1657612586253" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1657705303309">
+    <state width="1237" height="99" key="GridCell.Tab.0.bottom" timestamp="1658756778496">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1657705303309" />
+    <state width="1237" height="99" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1658756778496" />
+    <state width="1237" height="99" key="GridCell.Tab.0.center" timestamp="1658756778496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="99" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1658756778496" />
+    <state width="1237" height="99" key="GridCell.Tab.0.left" timestamp="1658756778496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="99" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1658756778496" />
+    <state width="1237" height="99" key="GridCell.Tab.0.right" timestamp="1658756778496">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="99" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1658756778496" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1659087220566">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1659087220566" />
   </component>
 </project>
